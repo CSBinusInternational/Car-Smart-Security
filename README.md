@@ -1,7 +1,5 @@
 # Car Smart Alarm Security
 
-[![CircleCI](https://circleci.com/gh/kickstarter/android-oss.svg?style=svg)](https://circleci.com/gh/kickstarter/android-oss)
-
 Welcome to Kickstarter's open source Android app! Come on in, take your shoes
 off, stay a while—_explore_ how Kickstarter's native squad has built and
 continues to build the app, _discover_ our implementation of [RxJava](https://github.com/ReactiveX/RxJava) in logic-
