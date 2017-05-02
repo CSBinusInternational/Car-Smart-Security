@@ -1,15 +1,8 @@
 # Car Smart Alarm Security
 
-Welcome to Kickstarter's open source Android app! Come on in, take your shoes
-off, stay a while—_explore_ how Kickstarter's native squad has built and
-continues to build the app, _discover_ our implementation of [RxJava](https://github.com/ReactiveX/RxJava) in logic-
-filled [view models](https://github.com/kickstarter/android-oss/tree/master/app/src/main/java/com/kickstarter/viewmodels),
-and maybe even _create_ an issue or two.
+Welcome to our's open source Security system for your car.
 
-We've also open sourced our iOS app, written in Swift:
-[check it out here](https://github.com/kickstarter/ios-oss). Read more about our journey to open source [here](https://kickstarter.engineering/open-sourcing-our-android-and-ios-apps-6891be909fcd#.o1fe86s6w).
-
-![System Sketch](.images/sketch.png)
+![System Sketch](images/sketch.png)
 
 ## Getting Started
 
