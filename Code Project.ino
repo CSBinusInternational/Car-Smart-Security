@@ -2,7 +2,7 @@
 //And lows L.E.D And Start Buzzing
 //It Also Displays The That The "Motion is Detected" On 
 //An Lcd Screen
-//For Any Help,Please Contact Zishan on +917277989686,India
+
 
 #include <LiquidCrystal.h>
 
