@@ -1,6 +1,6 @@
 # Car Smart Security Alarm
 
-[![CircleCI](https://circleci.com/gh/kickstarter/android-oss.svg?style=svg)](https://circleci.com/gh/aircatcher/Car-Smart-Security/2)
+[![CircleCI](https://circleci.com/gh/aircatcher/Car-Smart-Security.svg?style=svg)](https://circleci.com/gh/aircatcher/Car-Smart-Security)
 
 Welcome to our's open source car security system. It can be implemented on the other places too, such as your home or your own beloved studio.
 
