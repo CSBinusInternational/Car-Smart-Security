@@ -6,7 +6,6 @@ Welcome to our's open source car security system. It can be implemented on the o
 
 ![System Sketch](images/sketch.png)<br/>
 ![Connections](images/connections.jpg)<br/>
-![Fritz}(images/fritz_compact.png)<br/>
 
 ## Getting Started
 
@@ -51,6 +50,7 @@ HC-SR501 module will stay on input mode whilst it is not running in red mode (an
 Couple of drawbacks is probably from the sensor itself that is not a super sensitive and fast enough yet. And the other one is the power source, our kind of IoT or pervasive systems needs power all the time, but rather than having it to be powered from the car main, we might need a bigger and a longer-lasting battery for it to stay powered on. We can choose to use the car main, but that can be wasteful.<br/>
 
 ## Assembly / Connections
+![Fritz}(images/fritz_compact.png)<br/>
 <b>Connect the LCD (16x2) module to the Arduino as follows:</b><br/>
 •	Pin 1 VSS (GND) on the LCD to Ground on the Arduino<br/>
 •	Pin 2 VDD on the LCD to the 5V on the Arduino.<br/>
