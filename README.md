@@ -4,7 +4,9 @@
 
 Welcome to our's open source car security system. It can be implemented on the other places too, such as your home or your own beloved studio.
 
-![System Sketch](images/sketch.png)
+![System Sketch](images/sketch.png)<br/>
+![Connections](images/connections.jpg)<br/>
+![Fritz}(images/fritz_compact.png)<br/>
 
 ## Getting Started
 
