@@ -3,27 +3,29 @@
 //It Also Displays The That The "Motion is Detected" On 
 //An Lcd Screen
 
-
 #include <LiquidCrystal.h>
 
-int redLedPin = 13;        // choose the pin for the LED
-int yellowLedPin = 9;
-int inputPin = 7;       // choose the input pin (for PIR sensor)
-int pirState = LOW;     // we start, assuming no motion detected
-int val = 0;            // variable for reading the pin status
+int redLedPin = 13;     // Pin for the red LED
+int yellowLedPin = 9;   // Pin for the yellow LED
+int inputPin = 7;       // Pin for PIR sensor
+int pirState = LOW;     // Initialization state, assuming for no motion
+int val = 0;            // Variable of sensor status
 int pinSpeaker = 10;    // Set up a speaker on a PWM pin (digital 9, 10, or 11)
-int counter = 0;
 
 // initialize the library with the numbers of the interface pins
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
 void setup()
 {
-  pinMode(redLedPin, OUTPUT);      // declare LED as output
+  // declare LEDs and Buzzer as output
+  pinMode(redLedPin, OUTPUT);
   pinMode(yellowLedPin, OUTPUT);
-  pinMode(inputPin, INPUT);     // declare sensor as input
   pinMode(pinSpeaker, OUTPUT);
 
+  // declare sensor as input
+  pinMode(inputPin, INPUT);
+
+  // Rest of these codes on "setup()" These are for initialization only
   digitalWrite(redLedPin, HIGH);
   digitalWrite(yellowLedPin, HIGH);
   
@@ -63,7 +65,8 @@ void loop()
 {
   val = digitalRead(inputPin);        // read input value
   
-  if (val == HIGH)                    // check if the input is HIGH
+  // If motion is detected, set LED to red and turn on the buzzer
+  if (val == HIGH)
   {
       playTone(300, 300);
       delay(150);
@@ -80,6 +83,7 @@ void loop()
         pirState = HIGH;
       }
   }
+  // Otherwise make the state back to normal, turn the yellow LED back on
   else
   {
       digitalWrite(yellowLedPin, HIGH);
@@ -121,5 +125,3 @@ void playTone(long duration, int freq)
         elapsed_time += (period);
     }
 }
-
-// percobaan Commit
